@@ -1,0 +1,37 @@
+public class Basic{
+	
+	public static void main(String args[]) {
+	
+	int X=21;	
+	String Bin="10101",Oct="1577",Hex="35c";
+	
+	//Decimal to Binary-Octal-Hexadecimal 
+	System.out.println(Integer.toBinaryString(X));
+	System.out.println(Integer.toOctalString(X));
+	System.out.println(Integer.toHexString(X));
+	
+	//Binary-Octal-Hexadecimal to Decimal
+	System.out.println(Integer.parseInt(Bin,2));
+	System.out.println(Integer.parseInt(Oct,8));
+	System.out.println(Integer.parseInt(Hex,16));
+	
+	//Binary to Octal-Hexadecimal	
+	String bin="1101";
+	int binaryToDecimal=Integer.parseInt(bin,2);
+	System.out.println(Integer.toOctalString(binaryToDecimal));
+	System.out.println(Integer.toHexString(binaryToDecimal));
+	
+	//Octal to Hexadecimal	
+	String oct="15355";
+	int octalToDecimal=Integer.parseInt(oct,8);
+	System.out.println(Integer.toHexString(octalToDecimal));
+	
+	//Hexadecimal to Octal	
+	String hex="32E";
+	int hexadecimalToDecimal=Integer.parseInt(hex,16);
+	System.out.println(Integer.toOctalString(hexadecimalToDecimal));
+	
+
+	}
+	
+}	
