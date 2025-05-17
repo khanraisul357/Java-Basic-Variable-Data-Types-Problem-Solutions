@@ -1,0 +1,13 @@
+public class Basic{
+	
+   
+	public static void main(String args[]) {
+		
+	String N="10101";
+
+	
+	System.out.println(Integer.parseInt(N));
+
+	}
+	
+}
